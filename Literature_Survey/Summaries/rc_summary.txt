@@ -1,0 +1,43 @@
+Title:			Predict Future Sales using Ensembled Random Forests
+Source:		arXiv.org, maintained and operated by Cornell University.
+Link to the Paper:	https://arxiv.org/pdf/2008.07779.pdf
+Submitted on:		17th Apr 2019
+Year:			2019
+
+
+(i) What does it relate to? (problem, data or technique you plan to use)
+-------------------------------------------------------------------------
+This paper relates to both our problem statement, i.e. the Kaggle competition we are participating in, as well as the dataset we have chosen. We are interested in building on top of the techniques mentioned in the paper and make improvements and refinements to them.
+
+
+(ii) Any assumptions in the paper?
+-----------------------------------
+The assumptions made in the paper are:
+1. The techniques for making future predictions are based upon the present and past data.
+2. A time series is a sequence of historical measurements of one or more observable variable(s) at equal time intervals.
+3. The already available notebooks on Kaggle are reliable references for guidance on devising sound ways to proceed in the analysis to prediction workflow. Examples: Ideas for feature engineering, choices of models to select from for optimal results etc.
+	(a) Some notable Kaggle notebooks and blog mentions are:
+		i. Kaggle Blog Post titled "Time Series - ARIMA, DNN, XGBoost Comparison".
+		ii. Data science blog titled "XGBoost Algorithm: Long May She Reign!".
+4. The paper assumes that the reader has knowledge of popular Python modules such as NumPy, pandas, Scikit-learn, Keras, TensorFlow, Matplotlib, and XGBoost.
+
+
+(iii) What are the main claims?
+--------------------------------
+As per the authors results, their best performing model was the XGBoost, which had a lower Training, Validation and Test Root Mean Square Error, as compared to the other models explored such as ARIMA and LSTM.
+As per the F-Score the top 3 features from the XGBoost model were item_id, target_item_lag_1, enc_shop_id_category.
+
+The authors conclude that XGBoost performed the best in achieving maximum accuracy on the dataset, which they attribute to good feature engineering and the ability to try out a large range of hyperparameters during optimization. 
+The authors do note that selection of optimal parameters for a neural network architecture can often be the difference between an ordinary and a state-of-the-art performance. Hence, suggesting a more rigorous approach for hyperparameters selections can be used to tune the customized LSTM-based architecture. 
+
+
+(iv) What is the takeaway from this paper for you?
+---------------------------------------------------
+The authors conclude that XGBoost performed the best in achieving maximum accuracy on the dataset, which they attribute to good feature engineering and the ability to try out a large range of hyperparameters during optimization. 
+The authors do note that selection of optimal parameters for a neural network architecture can often be the difference between an ordinary and a state-of-the-art performance. Hence, suggesting a more rigorous approach for hyperparameters selections can be used to tune the customized LSTM-based architecture. 
+
+The popular, well rated and thorough data science blogs, Kaggle notebooks and papers referred to in the paper are an invaluable reference that even have the approval of the authors as well. The well described steps of Data cleaning, EDA and feature engineering all give deep insights into the workflow and line of though the authors were following. This will of great help in understand as well a resoning out why certain decision were taken at particular steps given the possibility; this allows our team to debate and discuss about the method followed and improve upon it as well.
+
+Finally, for future work the authors mention and suggest to the reader to try to use ensemble techniques to combine predictions from the different models explored; since that may potentially reduce both bias and variance in the output predictions. This is an interesting lead for our team to build upon. We have actually found a paper using this approach as well, and the authors of that paper's  model ranked 5th on the leaderboard (till 8.5.2018). We are actively exploring that paper as well.
+
+The link to that paper can be found here: https://arxiv.org/ftp/arxiv/papers/1904/1904.09031.pdf
