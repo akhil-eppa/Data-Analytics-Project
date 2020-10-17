@@ -1,11 +1,12 @@
 EDA Summary
-
+Data Cleaning:-
 •Analyze and visualization of sales data of a Russian store for a period of close to 3 years is performed.
 •The data was originally available as 4 separate files, later all combined into 1 file for EDA. The four
  files combined were training data, data related to categories, data related to items, and data related to shops.
 •Total of 2935489 entries in the dataset
 •In some cases, the item count for a given day was negative, showing that the number of items returned on that 
  day was more than the items sold. These have to be taken into account while performing further analytics.
+EDA And Visualization:-
 •The mean of the prices of all items in the data set is 890.85323 units with a standard deviation of 1729.79963
 •Additional columns were added to the dataset for visualization purposes. These include total 
  daily sales(item count*item price) and day of the week, month, and year(extracted from date).
@@ -17,3 +18,13 @@ EDA Summary
  sales, followed by Friday and then Sunday.
 •A bar plot showing the revenue generated for each month of the year was plotted. December is when most 
  revenue is generated while July is when the least revenue is generated.
+• A bar plot showing the total number of items sold per item category was plotted. This gives us a fair idea of the 
+popularity of each category ID and helps in the prediction. Category Item ID 40,30 and 55 were found to be the 
+most popular among the categories
+• A bar plot showing the total number of items within a particular category was also represented. This gives a clear
+picture with respect to the previous graph whether the total number of items sold within a particular category is 
+proportional to the number of items it has. It is clearly observed that since item categories 40,35 and 55 have the 
+most number of items the sales within those categories are proportionally higher than others.
+• A joint plot of the item price with respect to the item_count has been drawn. This gives us a clear idea on the outliers
+in the dataset which are noise to the entire dataset and may affect prediction. Item prices greater than 50000 and item_count
+greater than 500 are taken to be outliers in this case.
