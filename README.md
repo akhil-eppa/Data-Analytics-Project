@@ -19,15 +19,18 @@ This is the official repository for our assignment submissions/project for Data 
 
 # How to reproduce our Results?
   1. Follow the links below to run the notebooks on **Kaggle**:
-        1. Notebooks for final Submission:
-            - These notebooks may take some time (i.e. ~1 hour each) to complete execution due to the large dataset size as well as many data preprocessing steps
-                * Therefore to review the notebooks' results faster, the output of the notebooks' cells (from the immediate previous execution) are visible when viewing the notebooks on Kaggle
-            - [Data Preprocessing, Final XGBoost-Regressor model](https://www.kaggle.com/rishitchs/data-preprocessing-and-xgboost-regressor-model)
-            - [Data Preprocessing, Data Visualization, Linear Regression, DTree Regressor, RandomForest](https://www.kaggle.com/futurestan/visualization-linreg-dtree-randomforest)
-            - The notebooks in this repository along with their dataset files with the correct paths and outputs are in these Kaggle Notebooks
-        2. [Notebook and its multiple versions we worked on during the course of the project, experimenting with different models and techniques](https://www.kaggle.com/rishitchs/data-preprocessing-and-xgboost-regressor-model-old)
+     - The Kaggle links contain the same notebooks and the dataset files as in this repository along with the correct paths set and the execution outputs visible
+     - These notebooks may take some time (i.e. ~1 hour each) to complete execution due to the large dataset size, model training time as well as the many data preprocessing steps
+          * Therefore to review the notebooks' results faster, the output of the notebooks' cells (*from the immediate previous execution of the notebook, which we have already performed*) are visible when viewing the notebooks on Kaggle
+     1. Notebooks for final Submission:
+          - [Data Preprocessing, Final XGBoost-Regressor model](https://www.kaggle.com/rishitchs/data-preprocessing-and-xgboost-regressor-model)
+          - [Data Preprocessing, Data Visualization, Linear Regression, DTree Regressor, RandomForest](https://www.kaggle.com/futurestan/visualization-linreg-dtree-randomforest)
+     2. [Notebook and its multiple versions we worked on during the course of the project, experimenting with different models and techniques](https://www.kaggle.com/rishitchs/data-preprocessing-and-xgboost-regressor-model-old)
         
 ## Contributors
 * Rishit C
+     - SRN: PES1201800316
 * Akhil E
+     - SRN: PES1201802026
 * Varun T
+     - SRN: PES1201802027
