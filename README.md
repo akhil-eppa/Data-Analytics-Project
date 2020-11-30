@@ -21,6 +21,7 @@ This is the official repository for our assignment submissions/project for Data 
   1. Follow the links below to run the notebooks on Kaggle:
         - [Data Preprocessing, Final XGBoost-Regressor model](https://www.kaggle.com/rishitchs/data-preprocessing-and-xgboost-regressor-model)
         - [Data Preprocessing, Data Visualization, Linear Regression, DTree Regressor, RandomForest](https://www.kaggle.com/futurestan/visualization-linreg-dtree-randomforest)
+        - The notebooks in this repository along with their dataset files with the correct paths and outputs in these Kaggle Notebooks
 
 ## Contributors
 * Rishit C
