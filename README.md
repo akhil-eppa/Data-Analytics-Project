@@ -28,9 +28,9 @@ This is the official repository for our assignment submissions/project for Data 
      2. [Notebook and its multiple versions we worked on during the course of the project, experimenting with different models and techniques](https://www.kaggle.com/rishitchs/data-preprocessing-and-xgboost-regressor-model-old)
         
 ## Contributors
-* Rishit C
+* Rishit Chaudhary
      - SRN: PES1201800316
-* Akhil E
+* Akhil Eppa
      - SRN: PES1201802026
-* Varun T
+* Varun Tirthani
      - SRN: PES1201802027
