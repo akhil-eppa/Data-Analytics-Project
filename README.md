@@ -1,5 +1,8 @@
 # Data-Analytics-Project
-This is the official repository for our assignment submissions/project for Data Analytics Course 2020.
+**Team Name:** The Data Center Predict Future Sales: Final project for "How to win a data science competition" Coursera course  
+**Team Serial No.:** 085  
+**Repository Description:** This is the official repository for our team's final project submission for the Data Analytics Course 2020.
+ 
 
 # Repository Contents:
 1. ```Dataset```
