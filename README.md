@@ -20,6 +20,8 @@ This is the official repository for our assignment submissions/project for Data 
 # How to reproduce our Results?
   1. Follow the links below to run the notebooks on **Kaggle**:
         1. Notebooks for final Submission:
+            - These notebooks may take some time (i.e. ~1 hour each) to complete execution due to the large dataset size as well as many data preprocessing steps
+                * Therefore to review the notebooks' results faster, the output of the notebooks' cells (from the immediate previous execution) are visible when viewing the notebooks on Kaggle
             - [Data Preprocessing, Final XGBoost-Regressor model](https://www.kaggle.com/rishitchs/data-preprocessing-and-xgboost-regressor-model)
             - [Data Preprocessing, Data Visualization, Linear Regression, DTree Regressor, RandomForest](https://www.kaggle.com/futurestan/visualization-linreg-dtree-randomforest)
             - The notebooks in this repository along with their dataset files with the correct paths and outputs are in these Kaggle Notebooks
