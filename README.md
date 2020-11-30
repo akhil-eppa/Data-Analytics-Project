@@ -14,7 +14,8 @@ This is the official repository for our assignment submissions/project for Data 
   - This folder contains the files we used and created during the literature survey we performed in the early stages of the project
     * ```Papers```: This folder contains the papers we surveryed and reviewed
     * ```Summaries```: This folder contains the summaries 
-
+5. ```Guidelines```
+  - This folder contains the updated guidelines document
 ## Contributors
 * Rishit C
 * Akhil E
