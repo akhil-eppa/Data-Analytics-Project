@@ -16,6 +16,12 @@ This is the official repository for our assignment submissions/project for Data 
     * ```Summaries```: This folder contains the summaries 
 5. ```Guidelines```
   - This folder contains the updated guidelines document
+
+# How to reproduce our Results?
+  1. Follow the links below to run the notebooks on Kaggle:
+        - [Data Preprocessing, Final XGBoost-Regressor model](https://www.kaggle.com/rishitchs/data-preprocessing-and-xgboost-regressor-model)
+        - [Data Preprocessing, Data Visualization, Linear Regression, DTree Regressor, RandomForest](https://www.kaggle.com/futurestan/visualization-linreg-dtree-randomforest)
+
 ## Contributors
 * Rishit C
 * Akhil E
